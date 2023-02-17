@@ -1,0 +1,17 @@
+<svg width="1024px" height="1024px" version="1.1" xmlns="http://www.w3.org/2000/svg" xml:space="preserve"
+     style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <rect id="Artboard1" x="0" y="0" width="1024" height="1024" style="fill:white;"/>
+    <g id="Artboard11">
+        <g opacity="0.5">
+            <g transform="matrix(1.14329,0,0,0.848971,-42.9268,87.9179)"><rect x="149.504" y="90.795" width="111.957" height="815.104"/></g>
+            <g transform="matrix(1.14329,0,0,0.848971,597.073,87.9179)"><rect x="149.504" y="90.795" width="111.957" height="815.104"/></g>
+            <g transform="matrix(0.494711,-0.494711,0.439284,0.439284,-66.6945,384.436)"><rect x="364.544" y="118.784" width="182.955" height="789.163"/></g>
+            <g transform="matrix(1.3127,1.3127,-1.02146,1.02146,121.834,-764.182)"><rect x="600.747" y="139.264" width="68.949" height="338.603"/></g>
+        </g>
+        <g opacity="0.5">
+            <g transform="matrix(1.14329,0,0,0.848971,-42.9268,87.9179)"><rect x="149.504" y="90.795" width="111.957" height="815.104"/></g>
+            <g transform="matrix(1.14329,0,0,0.848929,597.073,87.9218)"><rect x="149.504" y="90.795" width="111.957" height="815.104"/></g>
+            <g transform="matrix(0.494711,-0.494711,0.762327,0.762327,-105.067,345.792)"><rect x="364.544" y="118.784" width="182.955" height="789.163"/></g>
+        </g>
+    </g>
+</svg>
