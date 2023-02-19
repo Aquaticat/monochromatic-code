@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>color.scheme.monochromatic-code-light</id>
   <name>Monochromatic-code Light</name>
-  <version>0.0.15</version>
+  <version>0.0.17</version>
   <vendor email="contact@aquati.cat" url="https://aquati.cat">Aquaticat</vendor>
 
   <description><![CDATA[
@@ -41,7 +41,7 @@ Repo of the color scheme: https://github.com/Aquaticat/monochromatic-code/ (no r
     ]]></description>
 
   <change-notes><![CDATA[
-      Named color scheme correctly.
+      Gave underline to TODO_DEFAULTS
     ]]>
   </change-notes>
 
