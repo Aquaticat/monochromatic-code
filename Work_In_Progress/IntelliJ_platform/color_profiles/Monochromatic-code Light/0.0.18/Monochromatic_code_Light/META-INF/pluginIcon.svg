@@ -1,0 +1,16 @@
+<svg width="100%" height="100%" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <rect id="Artboard1" x="0" y="0" width="40" height="40" style="fill:white;"/>
+    <g id="Artboard11">
+        <g opacity="0.5">
+            <rect x="5" y="6.445" width="5" height="27.031"/>
+            <rect x="30" y="6.445" width="5" height="27.031"/>
+            <path d="M10.013,6.475l-3.535,3.536l13.541,13.541l3.536,-3.535l-13.542,-13.542Z"/>
+            <path d="M33.543,10.046l-3.536,-3.535l-13.51,13.51l3.535,3.536l13.511,-13.511Z"/>
+        </g>
+        <g opacity="0.5">
+            <rect x="5" y="6.445" width="5" height="27.031"/>
+            <rect x="30" y="6.445" width="5" height="27.03"/>
+            <path d="M10.013,6.464l-3.535,3.536l23.5,23.5l3.535,-3.536l-23.5,-23.5Z"/>
+        </g>
+    </g>
+</svg>

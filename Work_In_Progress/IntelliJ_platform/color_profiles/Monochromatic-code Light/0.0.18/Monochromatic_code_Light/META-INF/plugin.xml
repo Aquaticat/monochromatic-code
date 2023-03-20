@@ -1,0 +1,58 @@
+<idea-plugin>
+  <id>color.scheme.monochromatic-code-light</id>
+  <name>Monochromatic-code Light</name>
+  <version>0.0.18</version>
+  <vendor email="contact@aquati.cat" url="https://aquati.cat">Aquaticat</vendor>
+
+  <description><![CDATA[
+<h1>Monochromatic-code light syntax highlighting color scheme by Aquaticat.</h1>
+
+<p>Only 5 colors were used:</p>
+
+<ol>
+<li>
+#ffffff pure white
+</li>
+<li>
+#c0c0c0 light gray
+</li>
+<li>
+#808080 gray
+</li>
+<li>
+#404040 dark gray
+</li>
+<li>
+#000000 black
+</li>
+</ol>
+
+<p>
+Only seeing these five colors while coding has reduced my eye strain.
+I hope it will help with other people's eye problems, too.
+</p>
+
+<p>
+Website of the color scheme: https://code.monochromatic.dev/ (inaccessible as of 2023MAR19)
+</p>
+
+<p>
+Repo of the color scheme: https://github.com/Aquaticat/monochromatic-code/ (no readme as of 2023MAR19)
+</p>
+    ]]></description>
+
+  <change-notes><![CDATA[
+      fix: not enough contrast between line numbers.
+
+      fix: Scrollbars having too much contrast.
+    ]]>
+  </change-notes>
+
+  <idea-version since-build="142.0"/>
+
+  <depends>com.intellij.modules.lang</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <bundledColorScheme path="/colors/monochromatic-code-light"/>
+  </extensions>
+</idea-plugin>
