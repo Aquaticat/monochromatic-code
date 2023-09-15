@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>color.scheme.monochromatic-code-light</id>
   <name>Monochromatic-code Light</name>
-  <version>0.0.17</version>
+  <version>0.0.19</version>
   <vendor email="contact@aquati.cat" url="https://aquati.cat">Aquaticat</vendor>
 
   <description><![CDATA[
@@ -28,20 +28,27 @@
 </ol>
 
 <p>
-Only seeing these five colors while coding have reduced my eye strain. I hope it would help with other people's eye problems, too.
+Only seeing these five colors while coding has reduced my eye strain.
+I hope it will help with other people's eye problems, too.
 </p>
 
 <p>
-Website of the color scheme: https://code.monochromatic.dev/ (inaccessible as of 2023FEB17)
+Website of the color scheme: https://code.monochromatic.dev/ (inaccessible as of 2023 September 14)
 </p>
 
 <p>
-Repo of the color scheme: https://github.com/Aquaticat/monochromatic-code/ (no readme as of 2023FEB17)
+Repo of the color scheme: https://github.com/Aquaticat/monochromatic-code/ (no readme as of 2023 September 14)
 </p>
     ]]></description>
 
   <change-notes><![CDATA[
-      Gave underline to TODO_DEFAULTS
+      fix: misc
+
+      feat: Add C and C++ support.
+
+      feat: Add Vlang, Zig, Android Logcat, and ASCIIDoc support.
+
+      fix: Use "Light" instead of "Darcula" as parent color scheme.
     ]]>
   </change-notes>
 

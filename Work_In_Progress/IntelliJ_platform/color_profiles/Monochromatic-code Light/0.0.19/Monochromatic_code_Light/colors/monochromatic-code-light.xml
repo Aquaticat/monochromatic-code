@@ -1,13 +1,32 @@
-<scheme name="monochromatic-code-light-0.0.8" version="142" parent_scheme="Darcula">
+<scheme name="Monochromatic-code Light" version="142" parent_scheme="Light">
   <option name="FONT_SCALE" value="1.0" />
-  <metaInfo>
-    <property name="created">2023-02-14T14:44:05</property>
-    <property name="ide">idea</property>
-    <property name="ideVersion">2023.1.0.0</property>
-    <property name="modified">2023-02-14T14:44:37</property>
-    <property name="originalScheme">monochromatic-code-light-0.0.8</property>
-  </metaInfo>
-  <option name="LINE_SPACING" value="1.3" />
+    <metaInfo>
+      <property name="created">2023-03-19T20:17:00</property>
+      <property name="description">Monochromatic-code light syntax highlighting color scheme by Aquaticat.
+
+        Only 5 colors were used:
+
+          #ffffff pure white
+          #c0c0c0 light gray
+          #808080 gray
+          #404040 dark gray
+          #000000 black
+
+        Only seeing these five colors while coding has reduced my eye strain. I hope it would help with other people's eye problems, too.
+
+        Website of the color scheme: https://code.monochromatic.dev/ (inaccessible as of 2023 September 14)
+
+        Repo of the color scheme: https://github.com/Aquaticat/monochromatic-code/ (no readme as of 2023 September 14)
+        </property>
+      <property name="ide">idea</property>
+      <property name="ideVersion">2023.2.2.0.0</property>
+      <property name="modified">2023-09-14T20:57:14</property>
+      <property name="vendorMail">contact@aquati.cat</property>
+      <property name="vendorName">Aquaticat</property>
+      <property name="vendorUrl">https://aquati.cat</property>
+      <property name="version">0.0.19</property>
+    </metaInfo>
+  <option name="LINE_SPACING" value="1.4" />
   <font>
     <option name="EDITOR_FONT_NAME" value="JetBrains Mono" />
     <option name="EDITOR_FONT_SIZE" value="13" />
@@ -27,7 +46,7 @@
   </console-font>
   <option name="CONSOLE_LIGATURES" value="true" />
   <colors>
-    <option name="ADDED_LINES_COLOR" value="9924" />
+    <option name="ADDED_LINES_COLOR" value="0" />
     <option name="ANNOTATIONS_COLOR" value="404040" />
     <option name="ANNOTATIONS_LAST_COMMIT_COLOR" value="0" />
     <option name="ActionButton.iconTextForeground" value="ffffff" />
@@ -35,15 +54,15 @@
     <option name="Bookmark.Mnemonic.iconBorderColor" value="e0861f" />
     <option name="Bookmark.Mnemonic.iconForeground" value="ffffff" />
     <option name="Bookmark.iconBackground" value="e0861f" />
-    <option name="CARET_COLOR" value="0" />
+    <option name="CARET_COLOR" value="808080" />
     <option name="CARET_ROW_COLOR" value="ffffff" />
     <option name="CONSOLE_BACKGROUND_KEY" value="ffffff" />
-    <option name="DELETED_LINES_COLOR" value="ffa14f" />
+    <option name="DELETED_LINES_COLOR" value="0" />
     <option name="DIFF_SEPARATOR_WAVE" value="808080" />
     <option name="DOCUMENTATION_COLOR" value="ffffff" />
     <option name="DOC_COMMENT_GUIDE" value="c0c0c0" />
     <option name="DOC_COMMENT_LINK" value="404040" />
-    <option name="ERROR_HINT" value="c0c0c0" />
+    <option name="ERROR_HINT" value="ffffff" />
     <option name="FILESTATUS_ADDED" value="62cc47" />
     <option name="FILESTATUS_COPIED" value="62cc47" />
     <option name="FILESTATUS_DELETED" value="ed864a" />
@@ -62,7 +81,10 @@
     <option name="FILESTATUS_modifiedOutside" value="4ff0ff" />
     <option name="FOLDED_TEXT_BORDER_COLOR" value="ffffff" />
     <option name="GUTTER_BACKGROUND" value="131314" />
-    <option name="HINT_BORDER" value="808080" />
+    <option name="HINT_BORDER" value="404040" />
+    <option name="IGNORED_ADDED_LINES_BORDER_COLOR" value="0" />
+    <option name="IGNORED_DELETED_LINES_BORDER_COLOR" value="0" />
+    <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR" value="c0c0c0" />
     <option name="IMAGES_BACKGROUND" value="808080" />
     <option name="IMAGES_GRID_LINE_COLOR" value="0" />
     <option name="IMAGES_WHITE_CELL_COLOR" value="404040" />
@@ -72,59 +94,60 @@
     <option name="INLINE_REFACTORING_SETTINGS_FOCUSED" value="80808080" />
     <option name="INLINE_REFACTORING_SETTINGS_HOVERED" value="80808080" />
     <option name="LINE_NUMBERS_COLOR" value="808080" />
-    <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="404040" />
-    <option name="LOOKUP_COLOR" value="c0c0c0" />
+    <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="0" />
+    <option name="LOOKUP_COLOR" value="ffffff" />
     <option name="MATCHED_BRACES_INDENT_GUIDE_COLOR" value="c0c0c0" />
     <option name="METHOD_SEPARATORS_COLOR" value="c0c0c0" />
-    <option name="MODIFIED_LINES_COLOR" value="1aabff" />
+    <option name="MODIFIED_LINES_COLOR" value="c0c0c0" />
     <option name="MODIFIED_TAB_ICON" value="404040" />
     <option name="NOTIFICATION_BACKGROUND" value="ffffff" />
     <option name="PROMOTION_PANE" value="ffffff" />
     <option name="QUESTION_HINT" value="ffffff" />
-    <option name="RECENT_LOCATIONS_SELECTION" value="c0c0c0" />
+    <option name="RECENT_LOCATIONS_SELECTION" value="ffffff" />
     <option name="RECURSIVE_CALL_ATTRIBUTES" value="b4c738" />
     <option name="RIGHT_MARGIN_COLOR" value="c0c0c0" />
     <option name="SELECTED_INDENT_GUIDE" value="808080" />
-    <option name="SELECTED_TEARLINE_COLOR" value="808080" />
+    <option name="SELECTED_TEARLINE_COLOR" value="404040" />
     <option name="SELECTION_BACKGROUND" value="0" />
     <option name="SELECTION_FOREGROUND" value="ffffff" />
     <option name="SOFT_WRAP_SIGN_COLOR" value="c0c0c0" />
     <option name="STRING_CONTENT_INDENT_GUIDE" value="54b33e" />
-    <option name="ScrollBar.Mac.Transparent.hoverThumbBorderColor" value="0" />
-    <option name="ScrollBar.Mac.Transparent.hoverThumbColor" value="ffffffbe" />
-    <option name="ScrollBar.Mac.Transparent.hoverTrackColor" value="e6e6e65a" />
-    <option name="ScrollBar.Mac.Transparent.thumbBorderColor" value="0" />
-    <option name="ScrollBar.Mac.Transparent.thumbColor" value="ffffffbe" />
-    <option name="ScrollBar.Mac.Transparent.trackColor" value="e6e6e65a" />
-    <option name="ScrollBar.Mac.hoverThumbBorderColor" value="0" />
-    <option name="ScrollBar.Mac.hoverThumbColor" value="ffffffbe" />
-    <option name="ScrollBar.Mac.hoverTrackColor" value="0" />
-    <option name="ScrollBar.Mac.thumbBorderColor" value="0" />
-    <option name="ScrollBar.Mac.thumbColor" value="ffffffbe" />
-    <option name="ScrollBar.Mac.trackColor" value="0" />
-    <option name="ScrollBar.Transparent.hoverThumbBorderColor" value="0" />
-    <option name="ScrollBar.Transparent.hoverThumbColor" value="ffffffbe" />
-    <option name="ScrollBar.Transparent.hoverTrackColor" value="e6e6e65a" />
-    <option name="ScrollBar.Transparent.thumbBorderColor" value="0" />
-    <option name="ScrollBar.Transparent.thumbColor" value="ffffffbe" />
-    <option name="ScrollBar.Transparent.trackColor" value="e6e6e60" />
+    <option name="ScrollBar.Mac.Transparent.hoverThumbBorderColor" value="c0c0c0" />
+    <option name="ScrollBar.Mac.Transparent.hoverThumbColor" value="c0c0c080" />
+    <option name="ScrollBar.Mac.Transparent.hoverTrackColor" value="ffffff80" />
+    <option name="ScrollBar.Mac.Transparent.thumbBorderColor" value="c0c0c0" />
+    <option name="ScrollBar.Mac.Transparent.thumbColor" value="ffffff00" />
+    <option name="ScrollBar.Mac.Transparent.trackColor" value="ffffff00" />
+    <option name="ScrollBar.Mac.hoverThumbBorderColor" value="c0c0c0" />
+    <option name="ScrollBar.Mac.hoverThumbColor" value="c0c0c0" />
+    <option name="ScrollBar.Mac.hoverTrackColor" value="ffffff" />
+    <option name="ScrollBar.Mac.thumbBorderColor" value="c0c0c0" />
+    <option name="ScrollBar.Mac.thumbColor" value="ffffff" />
+    <option name="ScrollBar.Mac.trackColor" value="ffffff" />
+    <option name="ScrollBar.Transparent.hoverThumbBorderColor" value="c0c0c0" />
+    <option name="ScrollBar.Transparent.hoverThumbColor" value="c0c0c080" />
+    <option name="ScrollBar.Transparent.hoverTrackColor" value="ffffff80" />
+    <option name="ScrollBar.Transparent.thumbBorderColor" value="c0c0c0" />
+    <option name="ScrollBar.Transparent.thumbColor" value="ffffff00" />
+    <option name="ScrollBar.Transparent.trackColor" value="ffffff00" />
     <option name="ScrollBar.background" value="0" />
-    <option name="ScrollBar.hoverThumbBorderColor" value="0" />
-    <option name="ScrollBar.hoverThumbColor" value="808080" />
-    <option name="ScrollBar.hoverTrackColor" value="0" />
-    <option name="ScrollBar.thumbBorderColor" value="0" />
-    <option name="ScrollBar.thumbColor" value="c0c0c0" />
-    <option name="ScrollBar.trackColor" value="0" />
+    <option name="ScrollBar.hoverThumbBorderColor" value="c0c0c0" />
+    <option name="ScrollBar.hoverThumbColor" value="c0c0c0" />
+    <option name="ScrollBar.hoverTrackColor" value="ffffff" />
+    <option name="ScrollBar.thumbBorderColor" value="c0c0c0" />
+    <option name="ScrollBar.thumbColor" value="ffffff" />
+    <option name="ScrollBar.trackColor" value="ffffff" />
     <option name="TEARLINE_COLOR" value="c0c0c0" />
+    <option name="TOOLTIP" value="ffffff" />
     <option name="VCS_ANNOTATIONS_COLOR_1" value="ffffff" />
     <option name="VCS_ANNOTATIONS_COLOR_2" value="c0c0c0" />
     <option name="VCS_ANNOTATIONS_COLOR_3" value="c0ffff" />
     <option name="VCS_ANNOTATIONS_COLOR_4" value="ffc0ff" />
     <option name="VCS_ANNOTATIONS_COLOR_5" value="ffffc0" />
     <option name="VISUAL_INDENT_GUIDE" value="c0c0c0" />
-    <option name="WARNING_HINT" value="c0c0c0" />
+    <option name="WARNING_HINT" value="ffffff" />
     <option name="WHITESPACES" value="ffffff" />
-    <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="666666" />
+    <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="c0c0c0" />
   </colors>
   <attributes>
     <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
@@ -134,6 +157,29 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
+    <option name="ASCIIDOC_MONO">
+      <value>
+        <option name="EFFECT_COLOR" value="c0c0c0" />
+      </value>
+    </option>
+    <option name="ASCIIDOC_MONOBOLD">
+      <value>
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_COLOR" value="c0c0c0" />
+      </value>
+    </option>
+    <option name="ASCIIDOC_MONOBOLDITALIC">
+      <value>
+        <option name="FONT_TYPE" value="3" />
+        <option name="EFFECT_COLOR" value="c0c0c0" />
+      </value>
+    </option>
+    <option name="ASCIIDOC_MONOITALIC">
+      <value>
+        <option name="FONT_TYPE" value="2" />
+        <option name="EFFECT_COLOR" value="c0c0c0" />
+      </value>
+    </option>
     <option name="BAD_CHARACTER">
       <value>
         <option name="EFFECT_COLOR" value="0" />
@@ -141,6 +187,12 @@
       </value>
     </option>
     <option name="BASH.EXTERNAL_COMMAND" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="BASH.KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="404040" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="BOOKMARKS_ATTRIBUTES">
       <value />
     </option>
@@ -172,6 +224,7 @@
         <option name="ERROR_STRIPE_COLOR" value="c0c0c0" />
       </value>
     </option>
+    <option name="BUILD.BUILTIN_NAME" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
     <option name="CODE_LENS_BORDER_COLOR">
       <value>
         <option name="EFFECT_COLOR" value="404040" />
@@ -180,7 +233,6 @@
     <option name="CONSOLE_BLACK_OUTPUT">
       <value>
         <option name="FOREGROUND" value="0" />
-        <option name="BACKGROUND" value="ffffff" />
       </value>
     </option>
     <option name="CONSOLE_BLUE_BRIGHT_OUTPUT">
@@ -206,7 +258,6 @@
     <option name="CONSOLE_DARKGRAY_OUTPUT">
       <value>
         <option name="FOREGROUND" value="404040" />
-        <option name="BACKGROUND" value="ffffff" />
       </value>
     </option>
     <option name="CONSOLE_ERROR_OUTPUT">
@@ -249,7 +300,7 @@
     </option>
     <option name="CONSOLE_RANGE_TO_EXECUTE">
       <value>
-        <option name="EFFECT_COLOR" value="48016" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="CONSOLE_RED_BRIGHT_OUTPUT">
@@ -275,8 +326,7 @@
     </option>
     <option name="CONSOLE_WHITE_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="ffffff" />
-        <option name="BACKGROUND" value="0" />
+        <option name="FOREGROUND" value="c0c0c0" />
       </value>
     </option>
     <option name="CONSOLE_YELLOW_BRIGHT_OUTPUT">
@@ -307,6 +357,12 @@
     </option>
     <option name="CSS.KEYWORD">
       <value />
+    </option>
+    <option name="CSS.PSEUDO">
+      <value>
+        <option name="FOREGROUND" value="0" />
+        <option name="FONT_TYPE" value="3" />
+      </value>
     </option>
     <option name="CSS.UNICODE.RANGE">
       <value>
@@ -583,8 +639,7 @@
     </option>
     <option name="DEFAULT_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="404040" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="FOREGROUND" value="0" />
       </value>
     </option>
     <option name="DEFAULT_LINE_COMMENT">
@@ -693,6 +748,12 @@
         <option name="ERROR_STRIPE_COLOR" value="80ff" />
       </value>
     </option>
+    <option name="DOCKER_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="404040" />
+        <option name="FONT_TYPE" value="3" />
+      </value>
+    </option>
     <option name="DUPLICATE_FROM_SERVER">
       <value>
         <option name="EFFECT_COLOR" value="c0c0c0" />
@@ -725,7 +786,7 @@
       <value>
         <option name="BACKGROUND" value="c0c0c0" />
         <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_COLOR" value="0" />
+        <option name="EFFECT_COLOR" value="c0c0c0" />
       </value>
     </option>
     <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
@@ -770,6 +831,12 @@
     <option name="GO_PACKAGE" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="GO_SHADOWING_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="GO_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
+    <option name="GQL_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="404040" />
+        <option name="FONT_TYPE" value="3" />
+      </value>
+    </option>
     <option name="GRAMMAR_ERROR">
       <value>
         <option name="EFFECT_COLOR" value="c0c0c0" />
@@ -806,6 +873,21 @@
       </value>
     </option>
     <option name="HAML_RUBY_CODE" baseAttributes="" />
+    <option name="HANDLEBARS.ESCAPE">
+      <value>
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="4" />
+      </value>
+    </option>
+    <option name="HANDLEBARS.IDENTIFIERS">
+      <value>
+        <option name="FOREGROUND" value="0" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="HCL.IDENTIFIER">
+      <value />
+    </option>
     <option name="HTML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
     <option name="HTML_ATTRIBUTE_VALUE" baseAttributes="DEFAULT_STRING" />
     <option name="HTML_CUSTOM_TAG_NAME">
@@ -821,7 +903,18 @@
       </value>
     </option>
     <option name="HTML_TAG" baseAttributes="DEFAULT_TAG" />
-    <option name="HTML_TAG_NAME" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="HTML_TAG_NAME">
+      <value>
+        <option name="FOREGROUND" value="404040" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="HTTP_REQUEST_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="404040" />
+        <option name="FONT_TYPE" value="3" />
+      </value>
+    </option>
     <option name="HYPERLINK_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="808080" />
@@ -899,6 +992,13 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
+    <option name="INI.SECTION">
+      <value>
+        <option name="FOREGROUND" value="0" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_COLOR" value="0" />
+      </value>
+    </option>
     <option name="INJECTED_LANGUAGE_FRAGMENT">
       <value>
         <option name="EFFECT_COLOR" value="c0c0c0" />
@@ -906,13 +1006,13 @@
     </option>
     <option name="INLAY_DEFAULT">
       <value>
-        <option name="FOREGROUND" value="404040" />
+        <option name="FOREGROUND" value="808080" />
         <option name="BACKGROUND" value="ffffff" />
       </value>
     </option>
     <option name="INLAY_TEXT_WITHOUT_BACKGROUND">
       <value>
-        <option name="FOREGROUND" value="0" />
+        <option name="FOREGROUND" value="808080" />
       </value>
     </option>
     <option name="INLINE_PARAMETER_HINT">
@@ -925,7 +1025,6 @@
       <value>
         <option name="FOREGROUND" value="0" />
         <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_COLOR" value="c0c0c0" />
       </value>
     </option>
     <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
@@ -950,9 +1049,6 @@
     </option>
     <option name="JADE_FILTER_NAME" baseAttributes="DEFAULT_LABEL" />
     <option name="JADE_JS_BLOCK" baseAttributes="DEFAULT_IDENTIFIER" />
-    <option name="JAVA_KEYWORD">
-      <value />
-    </option>
     <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
     <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
@@ -985,8 +1081,20 @@
       </value>
     </option>
     <option name="JSP_DIRECTIVE_NAME" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="JUPYTER_INLINE_VALUES">
+      <value>
+        <option name="FOREGROUND" value="404040" />
+        <option name="FONT_TYPE" value="3" />
+      </value>
+    </option>
     <option name="KOTLIN_BACKING_FIELD_VARIABLE">
       <value />
+    </option>
+    <option name="KOTLIN_BUILTIN_ANNOTATION">
+      <value>
+        <option name="FOREGROUND" value="404040" />
+        <option name="FONT_TYPE" value="3" />
+      </value>
     </option>
     <option name="KOTLIN_DYNAMIC_FUNCTION_CALL">
       <value>
@@ -1051,6 +1159,80 @@
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
+    <option name="LOGCAT_FILTER_KEY">
+      <value>
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="LOGCAT_FILTER_KVALUE">
+      <value />
+    </option>
+    <option name="LOGCAT_FILTER_REGEX_KVALUE">
+      <value />
+    </option>
+    <option name="LOGCAT_FILTER_STRING_KVALUE">
+      <value />
+    </option>
+    <option name="LOGCAT_V2_LEVEL_DEBUG">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="BACKGROUND" value="40cc" />
+      </value>
+    </option>
+    <option name="LOGCAT_V2_LEVEL_ERROR">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="BACKGROUND" value="ff0000" />
+      </value>
+    </option>
+    <option name="LOGCAT_V2_LEVEL_INFO">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="BACKGROUND" value="808080" />
+      </value>
+    </option>
+    <option name="LOGCAT_V2_LEVEL_VERBOSE">
+      <value>
+        <option name="FOREGROUND" value="0" />
+        <option name="BACKGROUND" value="c0c0c0" />
+      </value>
+    </option>
+    <option name="LOGCAT_V2_LEVEL_WARNING">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="BACKGROUND" value="c08000" />
+      </value>
+    </option>
+    <option name="LOGCAT_V2_MESSAGE_ASSERT">
+      <value>
+        <option name="FOREGROUND" value="dd0000" />
+      </value>
+    </option>
+    <option name="LOGCAT_V2_MESSAGE_DEBUG">
+      <value>
+        <option name="FOREGROUND" value="40cc" />
+      </value>
+    </option>
+    <option name="LOGCAT_V2_MESSAGE_ERROR">
+      <value>
+        <option name="FOREGROUND" value="0" />
+      </value>
+    </option>
+    <option name="LOGCAT_V2_MESSAGE_INFO">
+      <value>
+        <option name="FOREGROUND" value="404040" />
+      </value>
+    </option>
+    <option name="LOGCAT_V2_MESSAGE_VERBOSE">
+      <value>
+        <option name="FOREGROUND" value="808080" />
+      </value>
+    </option>
+    <option name="LOGCAT_V2_MESSAGE_WARNING">
+      <value>
+        <option name="FOREGROUND" value="c08000" />
+      </value>
+    </option>
     <option name="LOG_DEBUG_OUTPUT">
       <value>
         <option name="FOREGROUND" value="404040" />
@@ -1087,9 +1269,27 @@
       </value>
     </option>
     <option name="LOMBOK_CLEAN">
-      <value />
+      <value>
+        <option name="FONT_TYPE" value="3" />
+      </value>
+    </option>
+    <option name="LOMBOK_KEY">
+      <value>
+        <option name="FOREGROUND" value="404040" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
     </option>
     <option name="List/map to object conversion" baseAttributes="JAVA_NUMBER" />
+    <option name="LiveLiteralsHighlightAttribute">
+      <value>
+        <option name="EFFECT_COLOR" value="c0c0c0" />
+      </value>
+    </option>
+    <option name="MAKEFILE_TAB">
+      <value>
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="MARKDOWN_BLOCK_QUOTE_MARKER">
       <value>
         <option name="FOREGROUND" value="808080" />
@@ -1161,6 +1361,7 @@
       <value>
         <option name="FOREGROUND" value="404040" />
         <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_COLOR" value="c0c0c0" />
       </value>
     </option>
     <option name="NG.EXPRESSIONS">
@@ -1181,6 +1382,49 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
+    <option name="OC.MACRONAME">
+      <value>
+        <option name="FONT_TYPE" value="3" />
+      </value>
+    </option>
+    <option name="OC.OVERLOADED_OPERATOR">
+      <value>
+        <option name="FOREGROUND" value="404040" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="OC.STRUCT_FIELD">
+      <value />
+    </option>
+    <option name="OC.STRUCT_LIKE">
+      <value>
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="OC.TYPEDEF">
+      <value>
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="PERL_ARRAY" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="PERL_ARRAY_BUILTIN" baseAttributes="PERL_ARRAY" />
+    <option name="PERL_GLOB_BUILTIN" baseAttributes="PERL_GLOB" />
+    <option name="PERL_HASH" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="PERL_HASH_BUILTIN" baseAttributes="PERL_HASH" />
+    <option name="PERL_LABEL">
+      <value>
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_COLOR" value="0" />
+        <option name="EFFECT_TYPE" value="4" />
+      </value>
+    </option>
+    <option name="PERL_PACKAGE_CORE" baseAttributes="PERL_PACKAGE" />
+    <option name="PERL_PACKAGE_PRAGMA" baseAttributes="PERL_PACKAGE" />
+    <option name="PERL_SCALAR" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="PERL_SCALAR_BUILTIN" baseAttributes="PERL_SCALAR" />
+    <option name="PERL_SUB" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="PERL_SUB_BUILTIN" baseAttributes="PERL_SUB" />
+    <option name="PERL_XSUB" baseAttributes="PERL_SUB" />
     <option name="PHP_CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
     <option name="PHP_EXEC_COMMAND_ID">
       <value>
@@ -1198,7 +1442,12 @@
     <option name="PHP_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="PHP_VAR" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="PROPERTIES.INVALID_STRING_ESCAPE" baseAttributes="DEFAULT_INVALID_STRING_ESCAPE" />
-    <option name="PROPERTIES.KEY" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="PROPERTIES.KEY">
+      <value>
+        <option name="FOREGROUND" value="404040" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="PROTO_KEYWORD">
       <value />
     </option>
@@ -1212,6 +1461,7 @@
     <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
     <option name="PY.PREDEFINED_DEFINITION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
     <option name="PY.PREDEFINED_USAGE" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
+    <option name="PY.SELF_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="PY.STRING.B" baseAttributes="DEFAULT_STRING" />
     <option name="RDOC_EMAIL">
       <value>
@@ -1399,6 +1649,13 @@
     <option name="Scala Keyword">
       <value />
     </option>
+    <option name="TDIFF_FUZZY_MATCHED">
+      <value>
+        <option name="BACKGROUND" value="c0c0c0" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_COLOR" value="0" />
+      </value>
+    </option>
     <option name="TEMPLATE_VARIABLE_ATTRIBUTES">
       <value />
     </option>
@@ -1444,7 +1701,9 @@
       <value>
         <option name="FOREGROUND" value="404040" />
         <option name="FONT_TYPE" value="2" />
+        <option name="EFFECT_COLOR" value="c0c0c0" />
         <option name="ERROR_STRIPE_COLOR" value="404040" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="TS.TYPE_GUARD">
@@ -1475,12 +1734,12 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
-    <option name="VELOCITY_DIRECTIVE" baseAttributes="JSP_DIRECTIVE_NAME" />
+    <option name="VELOCITY_DIRECTIVE" baseAttributes="DEFAULT_KEYWORD" />
     <option name="VELOCITY_KEYWORD">
       <value />
     </option>
-    <option name="VELOCITY_REFERENCE" baseAttributes="JSP_ATTRIBUTE_NAME" />
-    <option name="VELOCITY_SCRIPTING_BACKGROUND" baseAttributes="JSP_SCRIPTING_BACKGROUND" />
+    <option name="VELOCITY_REFERENCE" baseAttributes="DEFAULT_ATTRIBUTE" />
+    <option name="VELOCITY_SCRIPTING_BACKGROUND" baseAttributes="DEFAULT_TEMPLATE_LANGUAGE_COLOR" />
     <option name="WARNING_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="404040" />
@@ -1512,7 +1771,7 @@
     </option>
     <option name="XML_ATTRIBUTE_NAME">
       <value>
-        <option name="FOREGROUND" value="404040" />
+        <option name="FOREGROUND" value="0" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -1532,7 +1791,12 @@
     </option>
     <option name="XML_PROLOGUE" baseAttributes="TEXT" />
     <option name="XML_TAG" baseAttributes="DEFAULT_TAG" />
-    <option name="XML_TAG_NAME" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="XML_TAG_NAME">
+      <value>
+        <option name="FOREGROUND" value="404040" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="XPATH.FUNCTION" baseAttributes="DEFAULT_FUNCTION_CALL" />
     <option name="XPATH.KEYWORD">
       <value />
@@ -1542,6 +1806,12 @@
     <option name="YAML_ANCHOR">
       <value>
         <option name="FONT_TYPE" value="3" />
+      </value>
+    </option>
+    <option name="YAML_SCALAR_KEY">
+      <value>
+        <option name="FOREGROUND" value="404040" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="com.plan9.IDENTIFIER" baseAttributes="DEFAULT_IDENTIFIER" />
@@ -1579,14 +1849,54 @@
     <option name="org.rust.MACRO" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="org.rust.METHOD_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
     <option name="org.rust.TYPE_PARAMETER">
-      <value>
-        <option name="FONT_TYPE" value="3" />
-      </value>
+      <value />
     </option>
     <option name="org.rust.UNSAFE_CODE">
       <value>
         <option name="EFFECT_COLOR" value="c0c0c0" />
       </value>
     </option>
+    <option name="org.toml.KEY">
+      <value>
+        <option name="FOREGROUND" value="404040" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="org.vlang.CAPTURED_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="org.vlang.COMMENT_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="404040" />
+        <option name="FONT_TYPE" value="3" />
+      </value>
+    </option>
+    <option name="org.vlang.COMPILE_DIRECTIVE" baseAttributes="DEFAULT_METADATA" />
+    <option name="org.vlang.CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
+    <option name="org.vlang.CT_CONSTANT" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="org.vlang.CT_METHOD_CALL">
+      <value>
+        <option name="FONT_TYPE" value="3" />
+      </value>
+    </option>
+    <option name="org.vlang.ENUM" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="org.vlang.ENUM_FIELD" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="org.vlang.GENERIC_PARAMETER">
+      <value />
+    </option>
+    <option name="org.vlang.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
+    <option name="org.vlang.INTERFACE" baseAttributes="DEFAULT_INTERFACE_NAME" />
+    <option name="org.vlang.MODULE" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="org.vlang.MUTABLE_CAPTURED_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="org.vlang.MUTABLE_RECEIVER" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="org.vlang.MUTABLE_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="org.vlang.PUBLIC_ENUM" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="org.vlang.PUBLIC_FIELD" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="org.vlang.PUBLIC_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="org.vlang.PUBLIC_INTERFACE" baseAttributes="DEFAULT_INTERFACE_NAME" />
+    <option name="org.vlang.PUBLIC_STRUCT" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="org.vlang.PUBLIC_TYPE_ALIAS" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="org.vlang.RECEIVER" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="org.vlang.STRUCT" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="org.vlang.TYPE_ALIAS" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="org.vlang.USED_LABEL" baseAttributes="DEFAULT_LABEL" />
   </attributes>
 </scheme>
