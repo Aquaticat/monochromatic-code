@@ -1,0 +1,29 @@
+{
+  "name": "monochromatic-light",
+  "displayName": "Monochromatic Light",
+  "description": "Color scheme only using 5 grayscale colors.",
+  "author": {
+    "name": "Aquaticat",
+    "email": "an@aquati.cat"
+  },
+  "repository": {
+    "url": "https://github.com/Aquaticat/monochromatic-code"
+  },
+  "license": "CC0-1.0",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.83.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Monochromatic Light",
+        "uiTheme": "vs",
+        "path": "./themes/Monochromatic Light-color-theme.json"
+      }
+    ]
+  }
+}
